@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;500&display=swap");
 
 /*--- Global ---*/
 
 :root {
-    --grey: #B4BEC9;
-    --blue-green: #159A9C;
+    --grey: #b4bec9;
+    --blue-green: #159a9c;
     --black-blue: #002333;
-    --green-white: #DEEFE7;
-    --white: #FFFFFF;
+    --green-white: #deefe7;
+    --white: #ffffff;
     --black: #000000;
 }
 
@@ -18,14 +18,144 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    font-family: 'Alegreya Sans', sans-serif;
-    max-width: 980px;
+    font-family: "Alegreya Sans", sans-serif;
     margin: auto;
 }
-
 
 a {
     text-decoration: none;
     display: inline;
     color: var(--black);
+}
+
+.grid__container {
+    max-width: 980px;
+    margin: auto;
+}
+
+/* --- HEADER --- */
+
+.header {
+    position: fixed;
+    background-color: var(--blue-green);
+    width: 100%;
+}
+
+.header_content {
+    box-sizing: border-box;
+    padding: 0 15px 0 ;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white);
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.navbar_btn {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    height: 30px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_element {
+    color: var(--white);
+}
+
+.navbar_element:hover {
+    display: flex;
+    color: var(--blue-green);
+    background-color: var(--white);
+    border-radius: 30px;
+    height: 30px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- MAIN --- */
+
+.main {
+}
+
+/* --- PERFIL --- */
+
+.perfil {
+    height: 600px;
+    padding-top: 50px;
+    width: 100%;
+    background-color: #b4bec9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil_foto {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    box-shadow: -10px 3px 10px black;
+}
+.perfil_name {
+    font-size: 30px;
+    border-bottom: 2px solid var(--black);
+}
+.perfil_ocupation {
+    font-size: 20px;
+    color: var(--blue-green);
+    margin: 0;
+}
+
+/* --- ABOUT --- */
+
+.about {
+}
+.about__title {
+}
+.about__content {
+}
+.about_date {
+}
+.about_info {
+}
+
+/* --- INTERESTS --- */
+
+.interests {
+}
+.interests_title {
+}
+.interests_content {
+}
+.interests_logo {
+}
+.interests_data {
+}
+
+/* --- GALERY --- */
+
+.galery {
+}
+
+/* --- FOOTER --- */
+.footer {
+}
+.footer_content {
+}
+.footer_data {
 }
