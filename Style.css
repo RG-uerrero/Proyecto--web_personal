@@ -39,6 +39,13 @@ a {
     position: fixed;
     background-color: var(--blue-green);
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header_content-down {
+    background: var(--white);
+    color: ;
 }
 
 .header_content {
@@ -46,7 +53,7 @@ a {
     padding: 0 15px 0;
     display: flex;
     height: 50px;
-    width: 100%;
+    width: 980px;
     align-items: center;
     justify-content: space-between;
     color: var(--white);
@@ -96,7 +103,7 @@ a {
 /* --- PERFIL --- */
 
 .perfil {
-    background: linear-gradient(0deg, rgba(21,154,156,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(21,154,156,1) 0%, rgba(255,255,255,1) 100%); 
     height: 600px;
     padding-top: 50px;
     width: 100%;
@@ -134,17 +141,28 @@ a {
 
 .about {
     background-color: #deefe7;
-    height: 370px;
+    height: 100%;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .about_title {
     display: flex;
     justify-content: center;
     margin-top: 0;
+    font-size: 30px;
+}
+
+.about_description{
+    margin: 0 80px 20px;
+    padding: 20px;
+    background-color: #159a9c;
+    color: var(--white);
+    border-radius: 20px;
 }
 
 .about_content {
@@ -174,22 +192,64 @@ a {
     justify-content: flex-start;
 }
 
-/* --- INTERESTS --- */
+/* --- TECH SKILLS --- */
 
-.interests {
+.techSkills {
+    background-color: var(--grey);
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: var(--black-blue);
 }
-.interests_title {
+.techSkills_title {
+    font-size: 30px;
 }
-.interests_content {
+
+.techSkills_subtitle{
+    font-size: 15px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
 }
-.interests_logo {
+
+.techSkills_content {
+    box-sizing: border-box;
+    margin: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 35px;
 }
-.interests_data {
+
+.techSkills_element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.techSkills_logo {
+    height: 65px;
+    width: 70px;
+}
+
+.techSkills_data {
+    height: 40px;
+    width: 110px;
+    background: var(--white);
+    color: var(--blue-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
 
 /* --- GALERY --- */
 
 .galery {
+    
 }
 
 /* --- FOOTER --- */
