@@ -40,15 +40,18 @@ a {
 
 .header {
     position: fixed;
-    background-color: var(--blue-green);
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
+.header_logo {
+    font-size: 30px;
+    color: var(--blue-green);
+}
+
 .header_content-down {
     background: var(--white);
-    color: ;
 }
 
 .header_content {
@@ -59,7 +62,6 @@ a {
     width: 980px;
     align-items: center;
     justify-content: space-between;
-    color: var(--white);
 }
 
 .navbar {
@@ -83,13 +85,13 @@ a {
 }
 
 .navbar_element {
-    color: var(--white);
+    color: var(--blue-green);
 }
 
 .navbar_element:hover {
     display: flex;
-    color: var(--blue-green);
-    background-color: var(--white);
+    color: var(--white);
+    background-color: var(--blue-green);
     border-radius: 30px;
     height: 30px;
     width: 80px;
@@ -198,7 +200,7 @@ a {
 /* --- TECH SKILLS --- */
 
 .techSkills {
-    background-color: var(--grey);
+    background-color: var(--white);
     height: 100%;
     padding: 20px;
     display: flex;
@@ -241,8 +243,8 @@ a {
 .techSkills_data {
     height: 40px;
     width: 110px;
-    background: var(--white);
-    color: var(--blue-green);
+    background: var(--black-blue);
+    color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -333,5 +335,12 @@ a {
 .footer_phone-data{
     font-size: 15px;
     color: var(--blue-green);
+    margin: 0;
+}
+
+.footer_copyright{
+    color: var(--white);
+    font-size: 15px;
+    padding-top: 30px;
     margin: 0;
 }
