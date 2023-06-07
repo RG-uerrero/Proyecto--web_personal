@@ -102,13 +102,16 @@ a {
 /* --- MAIN --- */
 
 .main {
-    
 }
 
 /* --- PERFIL --- */
 
 .perfil {
-    background: linear-gradient(0deg, rgba(21,154,156,1) 0%, rgba(255,255,255,1) 100%); 
+    background: linear-gradient(
+        0deg,
+        rgba(21, 154, 156, 1) 0%,
+        rgba(255, 255, 255, 1) 100%
+    );
     height: 600px;
     padding-top: 50px;
     width: 100%;
@@ -162,7 +165,7 @@ a {
     font-size: 30px;
 }
 
-.about_description{
+.about_description {
     margin: 0 80px 20px;
     padding: 20px;
     background-color: #159a9c;
@@ -214,7 +217,7 @@ a {
     font-size: 30px;
 }
 
-.techSkills_subtitle{
+.techSkills_subtitle {
     font-size: 15px;
     margin-bottom: 35px;
     display: flex;
@@ -229,7 +232,7 @@ a {
     gap: 35px;
 }
 
-.techSkills_element{
+.techSkills_element {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -253,12 +256,11 @@ a {
 
 /* --- GALERY --- */
 
-.galery {
-     
-}
+
 
 /* --- FOOTER --- */
-.footer { background-color: #159a9c;
+.footer {
+    background-color: #159a9c;
     width: 100%;
     height: 200px;
     padding: 20px;
@@ -275,24 +277,24 @@ a {
     grid-template-columns: 1fr 1fr;
 }
 
-.footer_image{
+.footer_image {
     width: 50px;
     height: 50px;
 }
 
-.footer_rrdd{
+.footer_rrdd {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.footer_contact{
+.footer_contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
 }
 
-.footer_email{
+.footer_email {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -303,19 +305,19 @@ a {
     border-radius: 30px;
 }
 
-.footer_email-title{
+.footer_email-title {
     font-size: 20px;
     color: var(--blue-green);
     margin: 0;
 }
 
-.footer_email-data{
+.footer_email-data {
     font-size: 15px;
     color: var(--blue-green);
     margin: 0;
 }
 
-.footer_phone{
+.footer_phone {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -326,19 +328,19 @@ a {
     border-radius: 30px;
 }
 
-.footer_phone-title{
+.footer_phone-title {
     font-size: 20px;
     color: var(--blue-green);
     margin: 0;
 }
 
-.footer_phone-data{
+.footer_phone-data {
     font-size: 15px;
     color: var(--blue-green);
     margin: 0;
 }
 
-.footer_copyright{
+.footer_copyright {
     color: var(--white);
     font-size: 15px;
     padding-top: 30px;
